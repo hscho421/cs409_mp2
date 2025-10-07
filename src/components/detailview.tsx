@@ -20,6 +20,7 @@ const DetailView: React.FC = () => {
     if (id) {
       fetchCoinData(id);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   useEffect(() => {

@@ -34,6 +34,7 @@ const GalleryView: React.FC = () => {
 
   useEffect(() => {
     applyFilter(activeFilter);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [coins, activeFilter]);
 
   const applyFilter = (filter: FilterType) => {
