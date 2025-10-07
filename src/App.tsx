@@ -41,8 +41,8 @@ function App() {
         </main>
 
         <footer className="footer">
-          <p>&copy; {new Date().getFullYear()} Your App. All rights reserved.</p>
           <p>Data provided by CoinGecko API</p>
+          <p>&copy; {new Date().getFullYear()} Hyunseok Cho. All rights reserved.</p>
         </footer>
       </div>
     </Router>
